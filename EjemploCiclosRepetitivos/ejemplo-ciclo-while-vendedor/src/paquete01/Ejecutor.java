@@ -45,7 +45,7 @@ public class Ejecutor {
 
             entrada.nextLine(); // limpieza del buffer
             System.out.println("Desea ingresar más vendedores. Ingrese n para"
-                    + "salir");
+                    + " salir");
             opcion = entrada.nextLine();
             if (opcion.equals("n")) {
                 bandera = false;
